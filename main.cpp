@@ -70,7 +70,7 @@ int main() {
 				//Write the message into the CAN Bus using can.write (see inst.)
 				*************************************************************/
 				
-				thread_sleep_for(20);			//[DO NOT MODIFY]Wait for a little bit after
+				thread_sleep_for(20);			//[DO NOT MODIFY]  Wait for a little bit after
 									            //reading/sending a message
 			}
 		}
