@@ -42,6 +42,7 @@ int main() {
 	int motionDir = -1;		    //[TO BE MODIFIED IN PART A - TASK 3]  Direction of motion for servo motor
 	char msg_send[8];		    //[DO NOT MODIFY]  Define empty data string for CAN Message to be sent to servo
     float desiredAngle = 0; 	//[TO BE MODIFIED IN PART A - TASK 5]  This is the desired angle
+    float errorSignal = 0;      //[DO NOT MODIFY]  This is the error signal
     float integralError = 0;	//[DO NOT MODIFY]  This is the integral of the error for the PI control
 	float Ts = 0.05;        	//[DO NOT MODIFY]  This is the approximated period of the control cycle in seconds
 	
