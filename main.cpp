@@ -46,7 +46,6 @@ int main() {
 	float Ts = 0.05;        	//[DO NOT MODIFY]  This is the approximated period of the control cycle in seconds
 	
 	while(1){   			    //[DO NOT MODIFY]  This your cyclic control loop (the one to be executed indefinitely)
-
         /****************TASK 1: READ CAN MESSAGE**********************/
         if(can.read(msg_read)) { 		//[DO NOT MODIFY]  If message is available, read into msg_read
 			if(msg_read.id == SENSOR_CAN_ID){	//[DO NOT MODIFY]  Check if the id of message received is the ID of the sensor
