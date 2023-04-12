@@ -1,5 +1,6 @@
 /*************************************************************
-[MODIFY]Description of program, authors, dates, etc... 
+[MODIFY] Description of program, authors, dates, etc... 
+[MODIFY] Include pseudo code between these lines
 *************************************************************/
 
 #include "mbed.h"
