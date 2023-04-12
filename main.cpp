@@ -34,7 +34,7 @@ int main() {
 	thread_sleep_for(1000);		//[DO NOT MODIFY]  To allow user to read initial info
 	CANMessage msg_read; 	    //[DO NOT MODIFY]  Defines empty CAN message to store message from sensor
 	CANMessage msg_write; 	    //[DO NOT MODIFY]  Defines empty CAN message to store message to servo
-	can.frequency(500000);
+	can.frequency(500000);      //[DO NOT MODIFY]  Set the frequency (baudrate) of CAN 
 	tlog.start();			    //[DO NOT MODIFY]  Start counter for time
 	int pcmWidth = 900;		    //[TO BE MODIFIED IN PART A - TASK 3]  This is the control signal to be sent to the 
 							    //servo motor. It is an integer value between 900 and 2100 representing in microseconds 				
