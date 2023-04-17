@@ -10,7 +10,7 @@
 #define SENSOR_CAN_ID    2   //[DO NOT MODIFY]  Address of mbed/sensor CAN device
 #define CONTROL_CAN_ID   3   //[DO NOT MODIFY]  Address of THIS mbed device
 
-Serial Object;			    //[MODIFY]  To talk to Tera Term
+Serial Object;			    //[MODIFY]  Set serial connection to Tera Term
 CAN can(p30,p29); 		    //[DO NOT MODIFY]  Set CAN Interface (assume using pins p30 and p29).
 				
 DigitalOut LEDobject;		//[MODIFY]  Declare LED #1. You will use it as a Heartbeat signal of your program
